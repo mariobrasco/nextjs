@@ -12,7 +12,7 @@ const About = ({ data }) => {
         </Head>
         <Navbar />
         <Image src="/next.svg" alt="Logo Next JS" width={300} height={200} />
-        <h1>Ini Halaman About</h1>  
+        <h1>Ini Halaman About</h1> 
         {data.map((item) => (
             <div key={item.id}>
                 <Link href={`/about/${item.id}`}>

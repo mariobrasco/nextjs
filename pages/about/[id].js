@@ -21,7 +21,7 @@ export const getStaticPaths = async () => {
           user: data,
       }
     }
-  };
+  }
   
   const DetailUser = ({ user }) => {
       return(
